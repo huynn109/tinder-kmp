@@ -22,8 +22,8 @@ various other libraries.
     <td style="text-align:center; font-weight:bold;">iOS</td>
   </tr>
   <tr>
-    <td><img src="./assets/android_tinder.webp" alt="Android Demo" height="280"></td>
-    <td><img src="./assets/ios_tinder.webp" alt="iOS Demo" height="280"></td>
+    <td><img src="./assets/android_tinder.webp" alt="Android Demo" height="320"></td>
+    <td><img src="./assets/ios_tinder.webp" alt="iOS Demo" height="320"></td>
   </tr>
 </table>
 
