@@ -1,6 +1,7 @@
 # Tinder-like Swipeable Cards App
 
-This project is a Tinder-like swipeable cards application built using Compose Multiplatform, and various other libraries.
+This project is a Tinder-like swipeable cards application built using Compose Multiplatform, and
+various other libraries.
 
 ## Table of Contents
 
@@ -15,11 +16,16 @@ This project is a Tinder-like swipeable cards application built using Compose Mu
 - Multiple screens: Feed, Liked, Profile
 - Asynchronous image loading
 
-#### Android
-<img src="./assets/android_tinder.webp" alt="Demo" height="280">
-
-#### iOS
-<img src="./assets/ios_tinder.webp" alt="Demo" height="280">
+<table>
+   <tr>
+    <td style="text-align:center; font-weight:bold;">Android</td>
+    <td style="text-align:center; font-weight:bold;">iOS</td>
+  </tr>
+  <tr>
+    <td><img src="./assets/android_tinder.webp" alt="Android Demo" height="280"></td>
+    <td><img src="./assets/ios_tinder.webp" alt="iOS Demo" height="280"></td>
+  </tr>
+</table>
 
 ## Installation
 
@@ -50,13 +56,16 @@ This project is a Tinder-like swipeable cards application built using Compose Mu
 
 ### Project Structure
 
-- `composeApp/src/commonMain/kotlin/com/huynn109/kmp/tinder/feature/main/MainScreen.kt`: Contains the main screen composable function.
+- `composeApp/src/commonMain/kotlin/com/huynn109/kmp/tinder/feature/main/MainScreen.kt`: Contains
+  the main screen composable function.
 - `gradle/libs.versions.toml`: Manages the dependencies and their versions.
 
 ### Main Components
 
 #### MainScreen
-This function sets up the main screen with a bottom navigation bar and handles navigation between different screens.
+
+This function sets up the main screen with a bottom navigation bar and handles navigation between
+different screens.
 
 ```kotlin
 @Composable
@@ -68,8 +77,11 @@ fun MainScreen(
 }
 
 ```
+
 #### SwipeCardState
+
 This class manages the state of a swipeable card, including its position and swipe direction.
+
 ```kotlin
 class SwipeCardState(
     internal val maxWidth: Float,
