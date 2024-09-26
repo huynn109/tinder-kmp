@@ -15,6 +15,12 @@ This project is a Tinder-like swipeable cards application built using Compose Mu
 - Multiple screens: Feed, Liked, Profile
 - Asynchronous image loading
 
+#### Android
+<img src="./assets/android_tinder.webp" alt="Demo" height="280">
+
+#### iOS
+<img src="./assets/ios_tinder.webp" alt="Demo" height="280">
+
 ## Installation
 
 ### Prerequisites
